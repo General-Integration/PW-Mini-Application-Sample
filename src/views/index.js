@@ -1,0 +1,5 @@
+export { default as HomeView } from '@/views/HomeView.vue'
+export { default as AllEventView } from '@/views/event/AllEventView.vue'
+export { default as DetailEventView } from '@/views/event/DetailEventView.vue'
+export { default as OrderServiceView } from '@/views/service/OrderServiceView.vue'
+export { default as SuccessPaymentView } from '@/views/service/SuccessPaymentView.vue'

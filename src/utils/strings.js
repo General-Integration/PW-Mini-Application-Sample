@@ -1,0 +1,17 @@
+export const PAY = 'Pay';
+export const TOTAL= 'Total';
+export const SUCCESS = 'Success';
+export const GO_HOME = 'Go Home';
+export const EXAMPLE = 'Example';
+export const SUMMARY = 'Summary';
+export const ERROR_TITLE = 'Error';
+export const SUB_TOTAL = 'Subtotal';
+export const ALL_EVENT = 'All Event';
+export const GET_PROFILE = 'Get Profile';
+export const GET_OUTLETS = 'Get Outlets';
+export const REVIEW_ORDER = 'Review Order';
+export const GET_ALL_STAFFS = 'Get All Staffs';
+export const GET_USER_ROLES = 'Get User Roles';
+export const GET_ALL_BUSINESS = 'Get All Business';
+export const GET_BUSINESS_DETAILS = 'Get Business Details';
+export const ERROR_MESSAGE = 'Oops! Something went wrong please try again later.'
