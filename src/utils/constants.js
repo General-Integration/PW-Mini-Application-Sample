@@ -18,65 +18,65 @@ export const SERVICES = [
         id: 1,
         thumbnail_url: bgImage,
         title: 'Service #1',
-        price_original: 20,
+        price_original: 1,
         currency: 'USD',
-        price: '$20.00'
+        price: '$1.00'
     },
     {
         id: 2,
         thumbnail_url: bgImage,
         title: 'Service #2',
-        price_original: 30,
+        price_original: 1,
         currency: 'USD',
-        price: '$30.00'
+        price: '$1.00'
     },
     {
         id: 3,
         thumbnail_url: bgImage,
         title: 'Service #3',
-        price_original: 40,
+        price_original: 2,
         currency: 'USD',
-        price: '$40.00'
+        price: '$2.00'
     },
     {
         id: 4,
         thumbnail_url: bgImage,
         title: 'Service #4',
-        price_original: 50,
+        price_original: 2,
         currency: 'USD',
-        price: '$50.00'
+        price: '$2.00'
     },
     {
         id: 5,
         thumbnail_url: bgImage,
         title: 'Service #5',
-        price_original: 60,
+        price_original: 2,
         currency: 'USD',
-        price: '$60.00'
+        price: '$2.00'
     },
     {
         id: 6,
         thumbnail_url: bgImage,
         title: 'Service #6',
-        price_original: 300000,
+        price_original: 4000,
         currency: 'KHR',
-        price: '៛300,000'
+        price: '៛4,000'
     },
     {
         id: 7,
         thumbnail_url: bgImage,
         title: 'Service #7',
-        price_original: 360000,
+        price_original: 4000,
         currency: 'KHR',
-        price: '៛360,000'
+        price: '៛4,000'
     },
     {
         id: 8,
         thumbnail_url: bgImage,
         title: 'Service #8',
-        price_original: 400000,
+        price_original: 8000,
         currency: 'KHR',
-        price: '៛400,000'
+        price: '៛8,000'
     }
 ];
 
