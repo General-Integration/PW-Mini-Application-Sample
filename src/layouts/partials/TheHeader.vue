@@ -6,7 +6,7 @@
         </div>
         <p class="font-semibold text-white text-xl text-center">{{ appName }}</p>
         <p class="font-thin text-white text-sm opacity-80">{{ EXAMPLE }}</p>
-        <IconChevronDown class="w-2 h-3 text-white opacity-80" @click="closeApp"></IconChevronDown>
+        <IconChevronDown class="w-2 h-3 text-white opacity-80"></IconChevronDown>
       </div>
     </header>
 </template>
@@ -15,9 +15,6 @@
   import { EXAMPLE } from '@/utils/strings'
   import logoSvg from '@/assets/images/logo.svg'
   import { IconChevronDown } from '@/components'
-  import { callHandler } from 'web-bridge-gateway'
-
-  const closeApp =()=>callHandler('closeApp')
 
   const appName = computed(()=>{
     return process.env.VUE_APP_NAME ?? '';

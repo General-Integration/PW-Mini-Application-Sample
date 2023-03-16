@@ -74,9 +74,9 @@ export const SERVICES = [
         id: 8,
         thumbnail_url: bgImage,
         title: 'Service #8',
-        price_original: 5,
-        currency: 'USD',
-        price: '$5.00'
+        price_original: 50000,
+        currency: 'KHM',
+        price: '៛50,000'
     }
 ];
 

@@ -7,10 +7,10 @@
   import { useRouter } from 'vue-router'
   import { ErrorModal } from '@/components'
   import { useErrorStore } from './stores/error'
-  import { callHandler } from 'web-bridge-gateway'
   import { shallowRef, onMounted, ref } from 'vue'
   import { EVENTS, ROUTE_NAME } from '@/utils/constants'
   import { DefaultLayout, ChildLayout } from '@/layouts'
+  import { callHandler, registerHandler } from 'web-bridge-gateway'
 
   const fromRoute = ref();
   const router = useRouter();
@@ -38,6 +38,12 @@
         console.log(error);
       });
     }
+
+    registerHandler("closeApp", (data) => {
+      console.log("closeApp:", data);
+      callHandler('closeApp')
+    });
+
   })
 
   window.addEventListener('popstate', () => {
