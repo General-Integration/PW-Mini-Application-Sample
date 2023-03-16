@@ -46,10 +46,13 @@
 
     const payload  = {
         account: md5(new Date()),
-        amount: item.price_original ?? 0,
+        amount: `${item.price_original}` ?? '0',
         currency: item.currency ?? DEFAULT_CURRENCY
     }
     const doPayment =()=>{
+
+        console.log(payload)
+        
         isDisabled.value = true;
         callHandler("doPayment",payload ).then((res) => {
             if(res.error){

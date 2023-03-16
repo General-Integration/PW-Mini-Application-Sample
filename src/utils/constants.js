@@ -58,25 +58,25 @@ export const SERVICES = [
         id: 6,
         thumbnail_url: bgImage,
         title: 'Service #6',
-        price_original: 4000,
-        currency: 'KHR',
-        price: '៛4,000'
+        price_original: 3,
+        currency: 'USD',
+        price: '$3.00'
     },
     {
         id: 7,
         thumbnail_url: bgImage,
         title: 'Service #7',
-        price_original: 4000,
-        currency: 'KHR',
-        price: '៛4,000'
+        price_original: 3,
+        currency: 'USD',
+        price: '$3.00'
     },
     {
         id: 8,
         thumbnail_url: bgImage,
         title: 'Service #8',
-        price_original: 8000,
-        currency: 'KHR',
-        price: '៛8,000'
+        price_original: 5,
+        currency: 'USD',
+        price: '$5.00'
     }
 ];
 
